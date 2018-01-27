@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.jdstorey.org/"
+baseurl = "http://jdstorey.org/"
 relativeURLs = true
 
 # HTML Language Code Reference, such as en, zh-cn
