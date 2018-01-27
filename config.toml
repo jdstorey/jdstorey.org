@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://jdstorey.org/"
+baseurl = "https://jdstorey.github.io/"
 relativeURLs = true
 
 # HTML Language Code Reference, such as en, zh-cn
