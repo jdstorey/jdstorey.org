@@ -1,0 +1,23 @@
+<footer id="footer">
+    <!-- LaTeX math rendering -->
+    {{ if or .Params.math .Site.Params.math }}
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+    {{ end }}
+
+    {{ if .Site.Social }}
+        {{ partial "social.html" . }}
+    {{ end }}
+    <p class="small">
+    {{ with .Site.Params.copyright }}
+        {{ . | markdownify }}
+    {{ else }}
+       © Copyright {{ now.Format "2006"}} by John D. Storey
+    {{ end }}
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/" target=_blank>hugo</a> and <a href="https://github.com/rstudio/bookdown" target=_blank>bookdown</a>.  Theme derived from <a href="https://github.com/digitalcraftsman/hugo-cactus-theme" target=_blank>cactus</a> and <a href="https://github.com/nodejh/hugo-theme-cactus-plus" target=_blank>cactus-plus</a>.
+    </p>
+</footer>

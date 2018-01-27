@@ -1,0 +1,88 @@
+# Site settings
+baseurl = "https://jdstorey.github.io/"
+relativeURLs = true
+
+# HTML Language Code Reference, such as en, zh-cn
+languageCode = "en"
+title = "John D. Storey's Blog on Data, Science, and Statistics"
+theme = "hugo-theme-cactus-plus"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "your_google_analytics_code"
+hasCJKLanguage = false
+math = true
+enableToc = true
+
+[params]
+	name = "Data, Science, and Statistics"
+	description = "A blog by John D. Storey"
+	bio = "A blog by John D. Storey"
+	# Enter optionally your twitter account
+	twitter = "johnstorey"
+	enableRSS = false
+
+  math = false
+
+  enableToc = false
+
+	# Disqus comment
+	disqusShortname = "your_disqus_short_name"
+	# Disable disqus comments by set `enableDisqus = "false"`
+	enableDisqus = false
+
+	# Duoshuo comment
+	#duoshuoShortname = "your_duoshuo_short_name"
+	# Disable duoshuo comments by set `enableDuoshuo = "false"`
+	#enableDuoshuo = false
+
+	enableGithubIssuesTips = false
+
+	# Enable googleAnalytics
+	enableGoogleAnalytics = false
+
+	# Enable baiduAnalytics
+	#enableBaiduAnalytics = false
+	# Baidu Tongji Code
+	#baiduAnalytics = 'your_baidu_tongji_code'
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	archive = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = " "
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = ""
+
+
+# Add additional social link entries underneath
+[social]
+# facebook-square = "your_facebook_link"
+  twitter-square = "https://twitter.com/johnstorey"
+  github-square = "https://github.com/jdstorey"
+  envelope-square = "http://www.google.com/recaptcha/mailhide/d?k=01lmBVBeSlH9YZXBnY0zGI6w==&c=l3lQnvSmdQxYLkLY-lLYwK1zemc-O0b9OpCFlsoO5Rc="
+  external-link-square = "https://storeylab.github.io/"
+  book = "https://scholar.google.com/citations?hl=en&user=oi4x2XIAAAAJ&view_op=list_works&pagesize=100"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
